@@ -1,0 +1,61 @@
+@media (max-width: 450px) {
+    .container .rating-card {
+        width: 327px;
+        height: 360px;
+        border-radius: 15px;
+        padding: 24px 16px;
+    }
+
+    .container .rating-card.question-card .star-icon {
+        block-size: 42px;
+        margin-left: 6px;
+        padding: 14px;
+    }
+
+    .container .rating-card.question-card .main-question {
+        margin: 14px 8px;
+        font-size: 24px;
+    }
+
+    .container .rating-card.question-card .question-description {
+        font-size: 14px;
+        padding: 0 0 0 9px;
+        line-height: 22px;
+    }
+
+    .container .rating-card.question-card .list-of-score .rating-score {
+        margin: 23px 6px 24px 8px;
+        padding: 11px 17px;
+    }
+
+    .container .rating-card.question-card .submit-button {
+        letter-spacing: 2px;
+        margin: 0 0 0 8px;
+        padding: 15px 108px;
+    }
+
+    .container .rating-card.thank-you-card {
+        padding: 24px 10px 18px 11px;
+    }
+
+    .container .rating-card.thank-you-card .thank-you-image {
+        block-size: 110px;
+        padding: 6px;
+    }
+
+    .container .rating-card.thank-you-card .rating-text {
+        font-size: 14px;
+        padding: 10px 12px 6px 12px;
+        margin-bottom: 29px;
+    }
+
+    .container .rating-card.thank-you-card .thank-you {
+        font-size: 24px;
+    }
+
+    .container .rating-card.thank-you-card .thank-you-message {
+        font-size: 14px;
+        line-height: 22px;
+        margin: 10px 20px 13px 16px;
+    }
+}

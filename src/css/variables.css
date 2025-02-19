@@ -1,0 +1,8 @@
+:root {
+    --primary-backgound-color: hsl(216, 12%, 8%);
+    --secondary-background-color: hsl(213, 19%, 18%);
+
+    --primary-button-color: hsl(25, 97%, 53%);
+    --primary-text-color: hsl(0, 0%, 100%);
+    --secondary-text-color: hsl(217, 12%, 63%);
+}

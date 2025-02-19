@@ -1,0 +1,33 @@
+.container .rating-card.thank-you-card {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    align-items: center;
+    padding: 27px 18px 18px 18px;
+}
+
+.container .rating-card.thank-you-card .thank-you-image {
+    padding: 5px;
+    margin-bottom: 16px;
+    margin-right: 8px;
+}
+
+.container .rating-card.thank-you-card .rating-text {
+    padding: 7px 19px 6px 19px;
+    color: var(--primary-button-color);
+    background-color: var(--secondary-background-color);
+    border-radius: 25px;
+    margin-bottom: 25px;
+}
+
+.container .rating-card.thank-you-card .thank-you {
+    font-size: 28px;
+    color: var(--primary-text-color);
+}
+
+.container .rating-card.thank-you-card .thank-you-message {
+    color: var(--secondary-text-color);
+    line-height: 24px;
+    margin: 1px 20px 9px 12px;
+    text-align: center;
+}

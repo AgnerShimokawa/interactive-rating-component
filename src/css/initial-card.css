@@ -1,0 +1,67 @@
+.container .rating-card.question-card .star-icon {
+    margin-left: 1px;
+    padding: 15px;
+    border-radius: 50%;
+    background-color: var(--secondary-background-color);
+}
+
+.container .rating-card.question-card .main-question {
+    color: var(--primary-text-color);
+    margin-top: 31px;
+    font-size: 28px;
+}
+
+.container .rating-card.question-card .question-description {
+    color: var(--secondary-text-color);
+    margin-top: 11px;
+    line-height: 23px;
+}
+
+.container .rating-card.question-card .list-of-score {
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.container .rating-card.question-card .list-of-score .rating-score {
+    margin: 25px 23px 24px 0;
+    padding: 15px 21px;
+    background-color: var(--secondary-background-color);
+    border-radius: 50%;
+    color: var(--primary-text-color);
+}
+
+.container .rating-card.question-card .list-of-score .rating-score:hover {
+    color: var(--primary-backgound-color);
+    background-color: var(--primary-button-color);
+    cursor: pointer;
+}
+
+.container .rating-card.question-card .list-of-score .rating-score#selected {
+    color: var(--primary-backgound-color);
+    background-color: var(--primary-text-color);
+} 
+
+.container .rating-card.question-card .alert-message {
+    font-size: 12px;
+    color: hsl(5, 97%, 53%);
+    padding: 1px;
+    text-align: center;
+}
+
+.container .rating-card.question-card .alert-message.hidden {
+    display: none;
+}
+
+.container .rating-card.question-card .submit-button {
+    background-color: var(--primary-button-color);
+    text-transform: uppercase;
+    letter-spacing: 3px;
+    margin-top: 8px;
+    padding: 15px 137px;
+    border-radius: 30px;
+}
+
+.container .rating-card.question-card .submit-button:hover{
+    background-color: var(--primary-text-color);
+    cursor: pointer;
+}
